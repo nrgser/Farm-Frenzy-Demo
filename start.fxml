@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Menu">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="415.0" fitWidth="600.0">
+               <image>
+                  <Image url="@hanging-islands-game-level-isometric-template-vector-11814480.jpg" />
+               </image>
+            </ImageView>
+            <Button layoutX="61.0" layoutY="279.0" mnemonicParsing="false" style="-fx-background-color: #81c483;" text="1">
+               <font>
+                  <Font name="Berlin Sans FB" size="19.0" />
+               </font>
+            </Button>
+            <Button layoutX="367.0" layoutY="313.0" mnemonicParsing="false" style="-fx-background-color: #81c483;" text="2">
+               <font>
+                  <Font name="Berlin Sans FB" size="19.0" />
+               </font>
+            </Button>
+            <Button layoutX="526.0" layoutY="165.0" mnemonicParsing="false" style="-fx-background-color: #81c483;" text="3">
+               <font>
+                  <Font name="Berlin Sans FB" size="19.0" />
+               </font>
+            </Button>
+            <Button layoutX="35.0" layoutY="28.0" mnemonicParsing="false" onMouseClicked="#back" style="-fx-background-color: #81c483;" text="back">
+               <font>
+                  <Font name="Bell MT" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

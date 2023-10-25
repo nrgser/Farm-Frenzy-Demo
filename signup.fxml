@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Main">
+   <center>
+      <AnchorPane prefHeight="390.0" prefWidth="600.0" style="-fx-background-color: #81c483;" BorderPane.alignment="CENTER">
+         <children>
+            <Button layoutX="230.0" layoutY="230.0" mnemonicParsing="false" onMouseClicked="#login" prefHeight="48.0" prefWidth="139.0" text="login">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="12.0" />
+               </font></Button>
+            <Button layoutX="231.0" layoutY="152.0" mnemonicParsing="false" onMouseClicked="#signUp" prefHeight="47.0" prefWidth="138.0" text="signup">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="12.0" />
+               </font></Button>
+            <Label layoutX="121.0" layoutY="38.0" prefHeight="88.0" prefWidth="392.0" text="farm frenzy">
+               <font>
+                  <Font name="Berlin Sans FB" size="79.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
